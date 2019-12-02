@@ -1,0 +1,46 @@
+\babel@toc {english}{}
+\babel@toc {english}{}
+\contentsline {chapter}{Acknowledgments}{iii}{chapter*.1}% 
+\contentsline {chapter}{Abstract}{v}{chapter*.2}% 
+\vspace {2em}
+\contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.5}% 
+\contentsline {section}{\numberline {1.1}Motivation \& Previous Work}{2}{section.7}% 
+\contentsline {section}{\numberline {1.2}Contributions}{4}{section.10}% 
+\contentsline {section}{\numberline {1.3}Thesis Structure}{4}{section.11}% 
+\contentsline {chapter}{\chapternumberline {2}Background}{7}{chapter.13}% 
+\contentsline {section}{\numberline {2.1}3D Morphable Model}{7}{section.14}% 
+\contentsline {section}{\numberline {2.2}Fitting Pipeline}{9}{section.22}% 
+\contentsline {subsection}{\numberline {2.2.1}Markov Chain Monte Carlo (MCMC)}{9}{subsection.23}% 
+\contentsline {subsection}{\numberline {2.2.2}Landmark Fitting}{11}{subsection.33}% 
+\contentsline {subsection}{\numberline {2.2.3}Color Fitting}{11}{subsection.35}% 
+\contentsline {section}{\numberline {2.3}Depth Camera}{13}{section.39}% 
+\contentsline {subsection}{\numberline {2.3.1}De-projection}{14}{subsection.43}% 
+\contentsline {chapter}{\chapternumberline {3}Methods}{17}{chapter.48}% 
+\contentsline {section}{\numberline {3.1}Camera}{18}{section.54}% 
+\contentsline {subsection}{\numberline {3.1.1}Camera Calibration}{19}{subsection.55}% 
+\contentsline {subsection}{\numberline {3.1.2}Camera Configuration Parameters}{20}{subsection.61}% 
+\contentsline {subsection}{\numberline {3.1.3}SDK}{20}{subsection.62}% 
+\contentsline {section}{\numberline {3.2}Cross-Language API}{22}{section.68}% 
+\contentsline {section}{\numberline {3.3}Capture Procedure (Server)}{22}{section.70}% 
+\contentsline {subsection}{\numberline {3.3.1}RGB Color Image}{23}{subsection.74}% 
+\contentsline {subsection}{\numberline {3.3.2}3D Landmarks}{24}{subsection.75}% 
+\contentsline {subsection}{\numberline {3.3.3}Point Cloud}{25}{subsection.78}% 
+\contentsline {section}{\numberline {3.4}Fitting Pipeline (Client)}{26}{section.81}% 
+\contentsline {subsection}{\numberline {3.4.1}Data Processing}{26}{subsection.84}% 
+\contentsline {subsection}{\numberline {3.4.2}Shape Fitting}{29}{subsection.88}% 
+\contentsline {subsection}{\numberline {3.4.3}Color Fitting}{34}{subsection.109}% 
+\contentsline {chapter}{\chapternumberline {4}Results}{37}{chapter.114}% 
+\contentsline {section}{\numberline {4.1}Evaluation Metrics}{37}{section.115}% 
+\contentsline {section}{\numberline {4.2}Shape Fitting Module Evaluation}{38}{section.116}% 
+\contentsline {section}{\numberline {4.3}Full Fitting Evaluation (Shape Fitting + Color Fitting)}{40}{section.120}% 
+\contentsline {section}{\numberline {4.4}Execution Performance}{44}{section.129}% 
+\contentsline {chapter}{\chapternumberline {5}Conclusion}{47}{chapter.133}% 
+\contentsline {chapter}{\chapternumberline {6}Future Work}{49}{chapter.134}% 
+\contentsline {section}{\numberline {6.1}Using Multiple Camera Setup}{49}{section.135}% 
+\contentsline {section}{\numberline {6.2}Better Landmark Filtering}{50}{section.137}% 
+\contentsline {section}{\numberline {6.3}Multi-Resolution Fitting}{50}{section.138}% 
+\vspace {2em}
+\contentsline {chapter}{Bibliography}{53}{appendix*.139}% 
+\contentsline {appendix}{\chapternumberline {A}Thrift API Scheme}{57}{appendix.140}% 
+\vspace {2em}
+\contentsline {chapter}{Declaration on Scientific Integrity}{59}{appendix*.142}% 

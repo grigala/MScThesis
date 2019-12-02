@@ -1,0 +1,561 @@
+@article{tu2019joint,
+  title={Joint 3D Face Reconstruction and Dense Face Alignment from A Single Image with 2D-Assisted Self-Supervised Learning},
+  author={Tu, Xiaoguang and Zhao, Jian and Jiang, Zihang and Luo, Yao and Xie, Mei and Zhao, Yang and He, Linxiao and Ma, Zheng and Feng, Jiashi},
+  journal={arXiv preprint arXiv:1903.09359},
+  year={2019}
+}
+
+@article{Guo_2019,
+   title={CNN-Based Real-Time Dense Face Reconstruction with Inverse-Rendered Photo-Realistic Face Images},
+   volume={41},
+   ISSN={1939-3539},
+   url={http://dx.doi.org/10.1109/tpami.2018.2837742},
+   DOI={10.1109/tpami.2018.2837742},
+   number={6},
+   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+   publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+   author={Guo, Yudong and Zhang, Juyong and Cai, Jianfei and Jiang, Boyi and Zheng, Jianmin},
+   year={2019},
+   month={Jun},
+   pages={1294–1307}
+}
+
+
+@Article{betschard2016,
+	author = {Christoph Betschard},
+	title = {Fitting a 3D Morphable Face Model to Captures from Consumer Depth Cameras},
+	journal = {University of Basel, Department of Mathematics and Computer Science, Master's Thesis},
+	institution = {University of Basel, Department of Mathematics and Computer Science},
+	year = {2016}
+}
+
+@Article{Schoenborn2017,
+	author="Sch{\"o}nborn, Sandro
+	and Egger, Bernhard
+	and Morel-Forster, Andreas
+	and Vetter, Thomas",
+	title="Markov Chain Monte Carlo for Automated Face Image Analysis",
+	journal="International Journal of Computer Vision",
+	year="2017",
+	month="Jun",
+	day="01",
+	volume="123",
+	number="2",
+	pages="160--183",
+	abstract="We present a novel fully probabilistic method to interpret a single face image with the 3D Morphable Model. The new method is based on Bayesian inference and makes use of unreliable image-based information. Rather than searching a single optimal solution, we infer the posterior distribution of the model parameters given the target image. The method is a stochastic sampling algorithm with a propose-and-verify architecture based on the Metropolis--Hastings algorithm. The stochastic method can robustly integrate unreliable information and therefore does not rely on feed-forward initialization. The integrative concept is based on two ideas, a separation of proposal moves and their verification with the model (Data-Driven Markov Chain Monte Carlo), and filtering with the Metropolis acceptance rule. It does not need gradients and is less prone to local optima than standard fitters. We also introduce a new collective likelihood which models the average difference between the model and the target image rather than individual pixel differences. The average value shows a natural tendency towards a normal distribution, even when the individual pixel-wise difference is not Gaussian. We employ the new fitting method to calculate posterior models of 3D face reconstructions from single real-world images. A direct application of the algorithm with the 3D Morphable Model leads us to a fully automatic face recognition system with competitive performance on the Multi-PIE database without any database adaptation.",
+	issn="1573-1405",
+	doi="10.1007/s11263-016-0967-5",
+	url="https://doi.org/10.1007/s11263-016-0967-5"
+}
+
+@Article{Schoenborn2014,
+	author = {Sch{\"o}nborn, Sandro},
+	title = {Markov Chain Monte Carlo for
+Integrated Face Image Analysis},
+	journal = {University of Basel, Department of Mathematics and Computer Science, PhD Thesis},
+	institution = {University of Basel, Department of Mathematics and Computer Science},
+	year = {2014},
+}
+
+@InProceedings{10.1007/978-3-642-40602-7_11,
+	author="Sch{\"o}nborn, Sandro
+	and Forster, Andreas
+	and Egger, Bernhard
+	and Vetter, Thomas",
+	editor="Weickert, Joachim
+	and Hein, Matthias
+	and Schiele, Bernt",
+	title="A Monte Carlo Strategy to Integrate Detection and Model-Based Face Analysis",
+	booktitle="Pattern Recognition",
+	year="2013",
+	publisher="Springer Berlin Heidelberg",
+	address="Berlin, Heidelberg",
+	pages="101--110",
+	abstract="We present a novel probabilistic approach for fitting a statistical model to an image. A 3D Morphable Model (3DMM) of faces is interpreted as a generative (Top-Down) Bayesian model. Random Forests are used as noisy detectors (Bottom-Up) for the face and facial landmark positions. The Top-Down and Bottom-Up parts are then combined using a Data-Driven Markov Chain Monte Carlo Method (DDMCMC). As core of the integration, we use the Metropolis-Hastings algorithm which has two main advantages. First, the algorithm can handle unreliable detections and therefore does not need the detectors to take an early and possible wrong hard decision before fitting. Second, it is open for integration of various cues to guide the fitting process. Based on the proposed approach, we implemented a completely automatic, pose and illumination invariant face recognition application. We are able to train and test the building blocks of our application on different databases. The system is evaluated on the Multi-PIE database and reaches state of the art performance.",
+	isbn="978-3-642-40602-7"
+}
+
+
+@book{vision2013,
+	author = {Andrea Fossati and Juergen Gall and Helmut Grabner and Xiaofeng Ren and Kurt Konolige},
+	title = {Consumer Depth Cameras for Computer Vision},
+	year = {2013},
+	publisher = {Springer-Verlag London},
+	isbn = {978-1-4471-4640-7},
+	doi = {10.1007/978-1-4471-4640-7},
+	url = {https://doi.org/10.1007/978-1-4471-4640-7},
+}
+
+@Inbook{Henry2014,
+	author="Henry, Peter
+	and Krainin, Michael
+	and Herbst, Evan
+	and Ren, Xiaofeng
+	and Fox, Dieter",
+	editor="Khatib, Oussama
+	and Kumar, Vijay
+	and Sukhatme, Gaurav",
+	title="RGB-D Mapping: Using Depth Cameras for Dense 3D Modeling of Indoor Environments",
+	bookTitle="Experimental Robotics: The 12th International Symposium on Experimental Robotics",
+	year="2014",
+	publisher="Springer Berlin Heidelberg",
+	address="Berlin, Heidelberg",
+	pages="477--491",
+	abstract="RGB-D cameras are novel sensing systems that capture RGB images along with per-pixel depth information. In this paper we investigate how such cameras can be used in the context of robotics, specifically for building dense 3D maps of indoor environments. Such maps have applications in robot navigation, manipulation, semantic mapping, and telepresence. We present RGB-D Mapping, a full 3D mapping system that utilizes a novel joint optimization algorithm combining visual features and shape-based alignment. Visual and depth information are also combined for view-based loop closure detection, followed by pose optimization to achieve globally consistent maps.We evaluate RGB-D Mapping on two large indoor environments, and show that it effectively combines the visual and shape information available from RGB-D cameras.",
+	isbn="978-3-642-28572-1",
+	doi="10.1007/978-3-642-28572-1_33",
+	url="https://doi.org/10.1007/978-3-642-28572-1_33"
+}
+
+@Inbook{Smisek2013,
+	author="Smisek, Jan
+	and Jancosek, Michal
+	and Pajdla, Tomas",
+	editor="Fossati, Andrea
+	and Gall, Juergen
+	and Grabner, Helmut
+	and Ren, Xiaofeng
+	and Konolige, Kurt",
+	title="3D with Kinect",
+	bookTitle="Consumer Depth Cameras for Computer Vision: Research Topics and Applications",
+	year="2013",
+	publisher="Springer London",
+	address="London",
+	pages="3--25",
+	abstract="We analyze Kinect as a 3D measuring device, experimentally investigate depth measurement resolution and error properties, and make a quantitative comparison of Kinect accuracy with stereo reconstruction from SLR cameras and a 3D-TOF camera. We propose a Kinect geometrical model and its calibration procedure providing an accurate calibration of Kinect 3D measurement and Kinect cameras. We compare our Kinect calibration procedure with its alternatives available on Internet, and integrate it into an SfM pipeline where 3D measurements from a moving Kinect are transformed into a common coordinate system, by computing relative poses from matches in its color camera.",
+	isbn="978-1-4471-4640-7",
+	doi="10.1007/978-1-4471-4640-7_1",
+	url="https://doi.org/10.1007/978-1-4471-4640-7_1"
+}
+
+@Inbook{Weiss2013,
+	author="Weiss, Alexander
+	and Hirshberg, David
+	and Black, Michael J.",
+	editor="Fossati, Andrea
+	and Gall, Juergen
+	and Grabner, Helmut
+	and Ren, Xiaofeng
+	and Konolige, Kurt",
+	title="Home 3D Body Scans from a Single Kinect",
+	bookTitle="Consumer Depth Cameras for Computer Vision: Research Topics and Applications",
+	year="2013",
+	publisher="Springer London",
+	address="London",
+	pages="99--117",
+	abstract="The 3D shape of the human body is useful for applications in fitness, games, and apparel. Accurate body scanners, however, are expensive, limiting the availability of 3D body models. Although there has been a great deal of interest recently in the use of active depth sensing cameras, such as the Microsoft Kinect, for human pose tracking, little has been said about the related problem of human shape estimation. We present a method for human shape reconstruction from noisy monocular image and range data using a single inexpensive commodity sensor. The approach combines low-resolution image silhouettes with coarse range data to estimate a parametric model of the body. Accurate 3D shape estimates are obtained by combining multiple monocular views of a person moving in front of the sensor. To cope with varying body pose, we use a SCAPE body model which factors 3D body shape and pose variations. This enables the estimation of a single consistent shape, while allowing pose to vary. Additionally, we describe a novel method to minimize the distance between the projected 3D body contour and the image silhouette that uses analytic derivatives of the objective function. We use a simple method to estimate standard body measurements from the recovered SCAPE model and show that the accuracy of our method is competitive with commercial body scanning systems costing orders of magnitude more.",
+	isbn="978-1-4471-4640-7",
+	doi="10.1007/978-1-4471-4640-7_6",
+	url="https://doi.org/10.1007/978-1-4471-4640-7_6"
+}
+
+@inproceedings{Blanz:1999:MMS:311535.311556,
+ author = {Blanz, Volker and Vetter, Thomas},
+ title = {A Morphable Model for the Synthesis of 3D Faces},
+ booktitle = {Proceedings of the 26th Annual Conference on Computer Graphics and Interactive Techniques},
+ series = {SIGGRAPH '99},
+ year = {1999},
+ isbn = {0-201-48560-5},
+ pages = {187--194},
+ numpages = {8},
+ url = {http://dx.doi.org/10.1145/311535.311556},
+ doi = {10.1145/311535.311556},
+ acmid = {311556},
+ publisher = {ACM Press/Addison-Wesley Publishing Co.},
+ address = {New York, NY, USA},
+ keywords = {computer vision, facial animation, facial modeling, morphing, photogrammetry, registration},
+} 
+
+@incollection{Romdhani3DM,
+title = "CHAPTER 4 - 3D MORPHABLE FACE MODEL, A UNIFIED APPROACH FOR ANALYSIS AND SYNTHESIS OF IMAGES",
+editor = "Wenyi Zhao and Rama Chellappa",
+booktitle = "Face Processing",
+publisher = "Academic Press",
+address = "Burlington",
+pages = "127 - 158",
+year = "2006",
+isbn = "978-0-12-088452-0",
+doi = "https://doi.org/10.1016/B978-012088452-0/50005-4",
+url = "http://www.sciencedirect.com/science/article/pii/B9780120884520500054"
+}
+
+@misc{D415,
+  title = {Intel® RealSense™ D415 Description},
+  howpublished = {\url{https://www.intelrealsense.com}},
+  note = {Accessed: 2019-04-12}
+}
+
+@misc{D415_SDK,
+  title = {Intel® RealSense™ SDK 2.0},
+  howpublished = {\url{https://github.com/IntelRealSense/librealsense
+}},
+  note = {Accessed: 2019-04-12}
+}
+
+@article{oliverwisler18,
+	title = {3D-Morphable Model Fitting incorporating contour information},
+	author = {Oliver Wisler},
+	year = {2018},
+	journal = {University of Basel, Department of Mathematics and Computer Science, Master's Thesis},
+	institution = {University of Basel, Department of Mathematics and Computer Science}
+}
+
+@misc{lmdetect,
+  title = {Facial mapping (landmarks) with Dlib + Python},
+  howpublished = {\url{https://towardsdatascience.com/facial-mapping-landmarks-with-dlib-python-160abcf7d672}},
+  note = {Accessed: 2019-04-16}
+
+}
+@misc{scalismo,
+  title = {Scalismo - Scalable Image Analysis and Shape Modelling},
+  howpublished = {\url{https://github.com/unibas-gravis/scalismo
+}},
+  note = {Accessed: 2019-04-16}
+
+}
+
+@misc{dlib, 
+	title = {dlib - A toolkit for making real world machine learning and data analysis applications in C++},
+	howpublished = {\url{http://dlib.net}},
+	note = {Accessed: 2019-04-19}
+}
+
+@misc{scalismofaces,
+  title = {Scalable Image Analysis and Shape Modelling: Module to work with 2d images, with a focus on face images},
+  howpublished = {\url{https://github.com/unibas-gravis/scalismo-faces
+}},
+  note = {Accessed: 2019-04-16}
+
+}
+
+@misc{opencv,
+  title = {Open Source Computer Vision Library(OpenCV)},
+  howpublished = {\url{https://opencv.org/
+}},
+  note = {Accessed: 2019-04-16}
+
+}
+@misc{thrift,
+  title = {The Apache Thrift software framework},
+  howpublished = {\url{https://thrift.apache.org/},\url{https://en.wikipedia.org/wiki/Apache_Thrift
+
+}},
+  note = {Accessed: 2019-04-20}
+
+}
+
+@misc{rs-projection,
+	title={Projection in RealSense SDK 2.0},
+	howpublished = {\url{https://dev.intelrealsense.com/docs/projection-in-intel-realsense-sdk-20#section-point-coordinates}},
+	note={Access Date: 2019-10-01}
+}
+
+
+
+@ARTICLE{121791, 
+author={P. J. {Besl} and N. D. {McKay}}, 
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+title={A method for registration of 3-D shapes}, 
+year={1992}, 
+volume={14}, 
+number={2}, 
+pages={239-256}, 
+keywords={computational geometry;convergence of numerical methods;iterative methods;optimisation;pattern recognition;picture processing;3D shape registration;pattern recognition;point set registration;iterative closest point;geometric entity;mean-square distance metric;convergence;geometric model;Solid modeling;Motion estimation;Iterative closest point algorithm;Iterative algorithms;Testing;Inspection;Shape measurement;Iterative methods;Convergence;Quaternions}, 
+doi={10.1109/34.121791}, 
+ISSN={0162-8828}, 
+month={Feb},
+}
+
+@INPROCEEDINGS{6618317, 
+author={G. P. {Meyer} and M. N. {Do}}, 
+booktitle={2013 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)}, 
+title={Real-time 3D face modeling with a commodity depth camera}, 
+year={2013}, 
+volume={}, 
+number={}, 
+pages={1-4}, 
+keywords={cameras;face recognition;image registration;image segmentation;interactive devices;solid modelling;real-time 3D face modeling;commodity depth camera;Kinect sensor;user head depth image registration;high-quality 3D face models;user head depth image integration;fixed depth camera;KinectFusion system;depth image segmentation;Three-dimensional displays;Solid modeling;Face;Cameras;Image segmentation;Computational modeling;3D Face Modeling;Kinect;Real-time}, 
+doi={10.1109/ICMEW.2013.6618317}, 
+ISSN={}, 
+month={July},}
+
+@INPROCEEDINGS{6334272, 
+author={M. {Hernandez} and J. {Choi} and G. {Medioni}}, 
+booktitle={2012 Proceedings of the 20th European Signal Processing Conference (EUSIPCO)}, 
+title={Laser scan quality 3-D face modeling using a low-cost depth camera}, 
+year={2012}, 
+volume={}, 
+number={}, 
+pages={1995-1999}, 
+keywords={cameras;face recognition;graphics processing units;image registration;image representation;iterative methods;object detection;optical scanners;smoothing methods;spatiotemporal phenomena;laser scan quality;3D face model;depth camera;geometric model;star shaped object;object representation;cylindrical coordinate;filtering operation;depth image;3D points cloud;image registration;GPU;graphics processing unit;ICP;iterative closest point;ICP algorithm;facial expression;occlusion;temporal smoothing;spatial smoothing;Face;Computational modeling;Solid modeling;Estimation;Image reconstruction;Cameras;Laser modes;Kinect;face modeling;graphics}, 
+doi={}, 
+ISSN={2076-1465}, 
+month={Aug},}
+
+@Inproceedings{kinectfusion-real-time-dense-surface-mapping-and-tracking,
+	author = {Newcombe, Richard A. and  and  and  and Davison, Andrew J. and  and Shotton, Jamie and Hodges, Steve and Fitzgibbon, Andrew},
+	title = {KinectFusion: Real-Time Dense Surface Mapping and Tracking},
+	booktitle = {IEEE ISMAR},
+	year = {2011},
+	month = {October},
+	abstract = {
+	We present a system for accurate real-time mapping of complex and arbitrary indoor scenes in variable lighting conditions, using only a moving low-cost depth camera and commodity graphics hardware. We fuse all of the depth data streamed from a Kinect sensor into a single global implicit surface model of the observed scene in real-time. The current sensor pose is simultaneously obtained by tracking the live depth frame relative to the global model using a coarse-to-fine iterative closest point (ICP) algorithm, which uses all of the observed depth data available. We demonstrate the advantages of tracking against the growing full surface model compared with frame-to-frame tracking, obtaining tracking and mapping results in constant time within room sized scenes with limited drift and high accuracy. We also show both qualitative and quantitative results relating to various aspects of our tracking and mapping system. Modelling of natural scenes, in real-time with only commodity sensor and GPU hardware, promises an exciting step forward in augmented reality (AR), in particular, it allows dense surfaces to be reconstructed in real-time, with a level of detail and robustness beyond any solution yet presented using passive computer vision.
+	},
+	publisher = {IEEE},
+	url = {https://www.microsoft.com/en-us/research/publication/kinectfusion-real-time-dense-surface-mapping-and-tracking/},
+	edition = {IEEE ISMAR},
+}
+
+@INPROCEEDINGS{924423, 
+author={S. {Rusinkiewicz} and M. {Levoy}}, 
+booktitle={Proceedings Third International Conference on 3-D Digital Imaging and Modeling}, 
+title={Efficient variants of the ICP algorithm}, 
+year={2001}, 
+volume={}, 
+number={}, 
+pages={145-152}, 
+keywords={distance measurement;image processing;minimisation;real-time systems;iterative closest point algorithm;geometric alignment;three-dimensional models;minimization strategy;nearly-flat meshes;inscribed surfaces;uniform sampling;range images;real-time 3D model acquisition;model-based tracking;Iterative closest point algorithm;Iterative algorithms;Convergence;Solid modeling;Iterative methods;Geometry;Layout;Minimization methods;Image sampling;Rough surfaces}, 
+doi={10.1109/IM.2001.924423}, 
+ISSN={}, 
+month={May},}
+
+@ARTICLE{1227983, 
+author={V. {Blanz} and T. {Vetter}}, 
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+title={Face recognition based on fitting a 3D morphable model}, 
+year={2003}, 
+volume={25}, 
+number={9}, 
+pages={1063-1074}, 
+keywords={face recognition;solid modelling;image morphing;lighting;image texture;image representation;visual databases;face recognition;3D morphable model fitting;pose variations;profile view;frontal views;illuminations;3D shape;CMU-PIE database;FERET database;image database;shadows;specular reflections;image texture;statistical morphable model;face identification;image formation;3D space;computer graphics;Face recognition;Lighting;Shape;Head;Deformable models;Computational modeling;Computer simulation;Computer graphics;Image databases;Image recognition}, 
+doi={10.1109/TPAMI.2003.1227983}, 
+ISSN={0162-8828}, 
+month={Sep.},}
+
+@article{Schonborn:2015:BMG:2798342.2798359,
+ author = {Sch\"{o}nborn, Sandro and Egger, Bernhard and Forster, Andreas and Vetter, Thomas},
+ title = {Background Modeling for Generative Image Models},
+ journal = {Comput. Vis. Image Underst.},
+ issue_date = {July 2015},
+ volume = {136},
+ number = {C},
+ month = jul,
+ year = {2015},
+ issn = {1077-3142},
+ pages = {117--127},
+ numpages = {11},
+ url = {http://dx.doi.org/10.1016/j.cviu.2015.01.008},
+ doi = {10.1016/j.cviu.2015.01.008},
+ acmid = {2798359},
+ publisher = {Elsevier Science Inc.},
+ address = {New York, NY, USA},
+ keywords = {Bayesian model, Face analysis, Face model, Generative models, Implicit background models, Morphable Model},
+} 
+@ARTICLE{1000239, 
+author={ Zhuowen Tu and Song-Chun Zhu }, 
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+title={Image segmentation by data-driven Markov chain Monte Carlo}, 
+year={2002}, 
+volume={24}, 
+number={5}, 
+pages={657-673}, 
+keywords={image segmentation;Markov processes;Monte Carlo methods;Data-Driven Markov Chain Monte Carlo;image segmentation;Bayesian statistical framework;computational paradigm;split-merge;snake/balloon;region competition;data clustering;Markov random field;Markov chain sequence;clustering;edge detection;Image segmentation;Monte Carlo methods}, 
+doi={10.1109/34.1000239}, 
+ISSN={0162-8828}, 
+month={May},}
+
+@misc{multicam,
+	title={Using the Intel® RealSense™ Depth cameras D4xx in Multi-Camera Configurations.},
+	author={Anders Grunnet-Jepsen and Paul Winer and Aki Takagi and John Sweetser and Kevin Zhao and Tri Khuong and Dan Nie and John Woodfill},
+	journal={Intel},
+	url ={https://dev.intelrealsense.com/docs/multiple-depth-cameras-configuration},
+	note={Access Date: 2019-10-01}
+}
+
+@misc{cal, 
+	title={Calibration Tools User Guide for Intel® RealSense™ D400 Series},
+	journal={Intel},
+	url = {https://dev.intelrealsense.com/docs/intel-realsensetm-d400-series-calibration-tools-user-guide},
+	note={Access Date: 2019-10-01}
+}
+
+@misc{bestcal,
+	title={Best-Known-Methods for Tuning Intel® RealSense™ D400 Depth Cameras for
+Best Performance},
+	author={Anders Grunnet-Jepsen and John N. Sweetser and John Woodfill},
+	journal={Intel},
+	revision={Revision 1.9},
+	url ={https://dev.intelrealsense.com/docs/tuning-depth-cameras-for-best-performance},
+	note={Access Date: 2019-10-01}
+}
+
+@incollection{EGGER2017115,
+title = "Chapter 5 - Probabilistic Morphable Models",
+editor = "Guoyan Zheng and Shuo Li and Gabor Székely",
+booktitle = "Statistical Shape and Deformation Analysis",
+publisher = "Academic Press",
+pages = "115 - 135",
+year = "2017",
+isbn = "978-0-12-810493-4",
+doi = "https://doi.org/10.1016/B978-0-12-810493-4.00006-7",
+url = "http://www.sciencedirect.com/science/article/pii/B9780128104934000067",
+author = "Bernhard Egger and Sandro Schönborn and Clemens Blumer and Thomas Vetter",
+keywords = "Face image analysis, Markov chain Monte Carlo, Morphable model, Generative models, Top-down and bottom-up integration, Occlusion-aware model fitting, Facial expressions",
+abstract = "3D Morphable Face Models have been introduced for the analysis of 2D face photographs. The analysis is performed by actively reconstructing the three-dimensional face from the image in an Analysis-by-Synthesis loop, exploring statistical models for shape and appearance. Here we follow a probabilistic approach to acquire a robust and automatic model adaptation. The probabilistic formulation helps to overcome two main limitations of the classical approach. First, Morphable Model adaptation is highly depending on a good initialization. The initial position of landmark points and face pose was given by manual annotation in previous approaches. Our fully probabilistic formulation allows us to integrate unreliable Bottom-Up cues from face and feature point detectors. This integration is superior to the classical feed-forward approach, which is prone to early and possibly wrong decisions. The integration of uncertain Bottom-Up detectors leads to a fully automatic model adaptation process. Second, the probabilistic framework gives us a natural way to handle outliers and occlusions. Face images are recorded in highly unconstrained settings. Often parts of the face are occluded by various objects. Unhandled occlusions can mislead the model adaptation process. The probabilistic interpretation of our model makes possible to detect and segment occluded parts of the image and leads to robust model adaptation. Throughout this chapter we develop a fully probabilistic framework for image interpretation. We start by reformulating the Morphable Model as a probabilistic model in a fully Bayesian framework. Given an image, we search for a posterior distribution of possible image explanations. The integration of Bottom-Up information and the model parameters adaptation is performed using a Data Driven Markov Chain Monte Carlo approach. The face model is extended to be occlusion-aware and explicitly segments the image into face and non-face regions during the model adaptation process. The segmentation and model adaptation is performed in an Expectation-Maximization-style algorithm utilizing a robust illumination estimation method. The presented fully automatic face model adaptation can be used in a wide range of applications like face analysis, face recognition or face image manipulation. Our framework is able to handle images containing strong outliers, occlusions and facial expressions under arbitrary poses and illuminations. Furthermore, the fully probabilistic embedding has the additional advantage that it also delivers the uncertainty of the resulting image interpretation."
+}
+
+@INPROCEEDINGS{8373814,
+author={T. {Gerig} and A. {Morel-Forster} and C. {Blumer} and B. {Egger} and M. {Luthi} and S. {Schoenborn} and T. {Vetter}},
+booktitle={2018 13th IEEE International Conference on Automatic Face Gesture Recognition (FG 2018)},
+title={Morphable Face Models - An Open Framework},
+year={2018},
+volume={},
+number={},
+pages={75-82},
+keywords={computer vision;face recognition;Gaussian processes;image registration;principal component analysis;public domain software;splines (mathematics);face registration;neutral faces;open-source software framework;registration model-building;BU3D-FE database;2D face images;open framework;Gaussian processes;nonrigid registration;Morphable face models;nonrigid deformation models;PCA models;GPMM separate problem specific requirements;registration algorithm;prior model;modeling technique;facial expression model;open-source pipeline;Gaussian process morphable models;analysis-by-synthesis model adaption;Basel face model;morphable face models;Face;Adaptation models;Strain;Kernel;Shape;Deformable models;Gaussian processes;Morphable Model;Gaussian processes;Gaussian Process Morphable Model;Registration;Basel Face Model;Face Reconstruction},
+doi={10.1109/FG.2018.00021},
+ISSN={},
+month={May},}
+
+@ARTICLE{8010438,
+author={M. {Lüthi} and T. {Gerig} and C. {Jud} and T. {Vetter}},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Gaussian Process Morphable Models},
+year={2018},
+volume={40},
+number={8},
+pages={1860-1873},
+keywords={Gaussian processes;image registration;image segmentation;Karhunen-Loeve transforms;principal component analysis;splines (mathematics);Gaussian Process Morphable Models;shape variation;PDMs;shape models;classical spline models;Gaussian processes;spline model;shape characteristics;model-based segmentation;statistical model;point distribution models;point variations;principal component analysis;Karhunen-Loeve expansion;registration schemes;3D forearm images;Shape;Computational modeling;Mathematical model;Gaussian processes;Analytical models;Deformable models;Kernel;Statistical shape modeling;Gaussian processes;image analysis;non-rigid registration},
+doi={10.1109/TPAMI.2017.2739743},
+ISSN={},
+month={Aug},}
+
+@article{DBLP:journals/corr/KeselmanWGB17,
+  author    = {Leonid Keselman and
+               John Iselin Woodfill and
+               Anders Grunnet{-}Jepsen and
+               Achintya Bhowmik},
+  title     = {Intel RealSense Stereoscopic Depth Cameras},
+  journal   = {CoRR},
+  volume    = {abs/1705.05548},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1705.05548},
+  archivePrefix = {arXiv},
+  eprint    = {1705.05548},
+  timestamp = {Mon, 13 Aug 2018 16:47:02 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/KeselmanWGB17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@misc{serg,
+title={The basics of stereo depth vision},
+author={Sergey Dorodnicov},
+url={https://www.intelrealsense.com/stereo-depth-vision-basics/},
+note={Access Date: 2019-10-01}
+}
+
+@misc{pinhole,
+title={Turning any surface into a touch surface},
+author={Natalie Polansky and Yaniv Hasbani},
+}
+@inproceedings{Lorusso:1995:CFA:236190.236213,
+ author = {Lorusso, A. and Eggert, D. W. and Fisher, R. B.},
+ title = {A Comparison of Four Algorithms for Estimating 3-D Rigid Transformations},
+ booktitle = {Proceedings of the 1995 British Conference on Machine Vision (Vol. 1)},
+ series = {BMVC '95},
+ year = {1995},
+ isbn = {0-9521898-2-8},
+ location = {Birmingham, United Kingdom},
+ pages = {237--246},
+ numpages = {10},
+ url = {http://dl.acm.org/citation.cfm?id=236190.236213},
+ acmid = {236213},
+ publisher = {BMVA Press},
+ address = {Surrey, UK, UK},
+} 
+
+@misc{scalismoTut,
+title={Scalismo Tutorials},
+url={https://scalismo.org/tutorials},
+note={Access Date: 2019-10-01}
+}
+
+@book{Hartley:2003:MVG:861369,
+ author = {Hartley, Richard and Zisserman, Andrew},
+ title = {Multiple View Geometry in Computer Vision},
+ year = {2003},
+ isbn = {0521540518},
+ edition = {2},
+ publisher = {Cambridge University Press},
+ address = {New York, NY, USA},
+}
+
+@article{ALBRECHT2013959,
+title = "Posterior shape models",
+journal = "Medical Image Analysis",
+volume = "17",
+number = "8",
+pages = "959 - 973",
+year = "2013",
+issn = "1361-8415",
+doi = "https://doi.org/10.1016/j.media.2013.05.010",
+url = "http://www.sciencedirect.com/science/article/pii/S1361841513000844",
+author = "Thomas Albrecht and Marcel Lüthi and Thomas Gerig and Thomas Vetter",
+keywords = "Statistical shape model, Conditional shape model, Posterior shape model, Image segmentation, Trochlear dysplasia",
+abstract = "We present a method to compute the conditional distribution of a statistical shape model given partial data. The result is a “posterior shape model”, which is again a statistical shape model of the same form as the original model. This allows its direct use in the variety of algorithms that include prior knowledge about the variability of a class of shapes with a statistical shape model. Posterior shape models then provide a statistically sound yet easy method to integrate partial data into these algorithms. Usually, shape models represent a complete organ, for instance in our experiments the femur bone, modeled by a multivariate normal distribution. But because in many application certain parts of the shape are known a priori, it is of great interest to model the posterior distribution of the whole shape given the known parts. These could be isolated landmark points or larger portions of the shape, like the healthy part of a pathological or damaged organ. However, because for most shape models the dimensionality of the data is much higher than the number of examples, the normal distribution is singular, and the conditional distribution not readily available. In this paper, we present two main contributions: First, we show how the posterior model can be efficiently computed as a statistical shape model in standard form and used in any shape model algorithm. We complement this paper with a freely available implementation of our algorithms. Second, we show that most common approaches put forth in the literature to overcome this are equivalent to probabilistic principal component analysis (PPCA), and Gaussian Process regression. To illustrate the use of posterior shape models, we apply them on two problems from medical image analysis: model-based image segmentation incorporating prior knowledge from landmarks, and the prediction of anatomically correct knee shapes for trochlear dysplasia patients, which constitutes a novel medical application. Our experiments confirm that the use of conditional shape models for image segmentation improves the overall segmentation accuracy and robustness."
+}
+
+@conference{icpram19,
+author={Claudio Ferrari. and Stefano Berretti. and Pietro Pala. and Alberto Del Bimbo.},
+title={3D Face Reconstruction from RGB-D Data by Morphable Model to Point Cloud Dense Fitting},
+booktitle={Proceedings of the 8th International Conference on Pattern Recognition Applications and Methods - Volume 1: ICPRAM,},
+year={2019},
+pages={728-735},
+publisher={SciTePress},
+organization={INSTICC},
+doi={10.5220/0007521007280735},
+isbn={978-989-758-351-3},
+}
+
+@conference{visapp16,
+author={Patrik Huber. and Guosheng Hu. and Rafael Tena. and Pouria Mortazavian. and Willem P. Koppen. and William J. Christmas. and Matthias Rätsch. and Josef Kittler.},
+title={A Multiresolution 3D Morphable Face Model and Fitting Framework},
+booktitle={Proceedings of the 11th Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications - Volume 4: VISAPP, (VISIGRAPP 2016)},
+year={2016},
+pages={79-86},
+publisher={SciTePress},
+organization={INSTICC},
+doi={10.5220/0005669500790086},
+isbn={978-989-758-175-5},
+}
+
+@InProceedings{10.1007/3-540-47967-8_46,
+author="Liu, Ce
+and Shum, Heung-Yeung
+and Zhang, Changshui",
+editor="Heyden, Anders
+and Sparr, Gunnar
+and Nielsen, Mads
+and Johansen, Peter",
+title="Hierarchical Shape Modeling for Automatic Face Localization",
+booktitle="Computer Vision --- ECCV 2002",
+year="2002",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="687--703",
+abstract="Many approaches have been proposed to locate faces in an image. There are, however, two problems in previous facial shape models using feature points. First, the dimension of the solution space is too big since a large number of key points are needed to model a face. Second, the local features associated with the key points are assumed to be independent. Therefore, previous approaches require good initialization (which is often done manually), and may generate inaccurate localization. To automatically locate faces, we propose a novel hierarchical shape model (HSM) or multi-resolution shape models corresponding to a Gaussian pyramid of the face image. The coarsest shape model can be quickly located in the lowest resolution image. The located coarse model is then used to guide the search for a finer face model in the higher resolution image. Moreover, we devise a Global and Local (GL) distribution to learn the likelihood of the joint distribution of facial features. A novel hierarchical data-driven Markov chain Monte Carlo (HDDMCMC) approach is proposed to achieve the global optimum of face localization. Experimental results demonstrate that our algorithm produces accurate localization results quickly, bypassing the need for good initialization.",
+isbn="978-3-540-47967-3"
+}
+
+@inproceedings{surrey809478,
+           month = {February},
+          author = {P Huber and G Hu and R Tena and P Mortazavian and P Koppen and WJ Christmas and M Ratsch and J Kittler},
+            note = {Paper accepted for presentation at 11th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications, 27-29 February 2016.  Full text may be available at a later date.},
+       booktitle = {11th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications},
+           title = {A Multiresolution 3D Morphable Face Model and Fitting Framework},
+         journal = {Proceedings of the 11th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications},
+            year = {2016},
+             doi = {10.5220/0005669500790086},
+             url = {http://epubs.surrey.ac.uk/809478/},
+        abstract = {3D Morphable Face Models are a powerful tool in computer vision. They consist of a PCA model of face shape and colour information and allow to reconstruct a 3D face from a single 2D image. 3D Morphable Face Models are used for 3D head pose estimation, face analysis, face recognition, and, more recently, facial landmark detection and tracking. However, they are not as widely used as 2D methods - the process of building and using a 3D model is much more involved. In this paper, we present the Surrey Face Model, a multi-resolution 3D Morphable Model that we make available to the public for non-commercial purposes. The model contains different mesh resolution levels and landmark point annotations as well as metadata for texture remapping. Accompanying the model is a lightweight open-source C++ library designed with simplicity and ease of integration as its foremost goals. In addition to basic functionality, it contains pose estimation and face frontalisation algorithms. With the tools presented in this paper, we aim to close two gaps. First, by offering different model resolution levels and fast fitting functionality, we enable the use of a 3D Morphable Model in time-critical applications like tracking. Second, the software library makes it easy for the community to adopt the 3D Morphable Face Model in their research, and it offers a public place for collaboration.}
+}

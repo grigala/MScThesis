@@ -1,0 +1,10 @@
+*.gz
+*.dvi
+*.out
+*.bst
+*.xlsx
+*.aux
+*.blg
+*.glsdefs
+*.log
+*.bbl

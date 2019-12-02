@@ -1,0 +1,74 @@
+\documentclass[a4paper, 10pt]{memoir}
+\usepackage{basilea}
+% \usepackage{tgpagella}
+\usepackage{mathpazo}
+\usepackage{lipsum}
+\usepackage{eurosym}
+\usepackage{graphicx}
+\usepackage[center]{caption}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{siunitx}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{placeins}
+
+\title{Efficient 3D Morphable Model Face Fitting using Depth Sensing Technologies}
+% automated image analysis
+\thesistype{Master's Thesis }
+\department{Department of Mathematics and Computer Science}
+\faculty{Natural Science Faculty of the University of Basel}
+\research{Graphics and Vision Research Group \\ \url{https://gravis.dmi.unibas.ch}}
+\examiner{Prof. Dr. Thomas Vetter}
+\supervisor{Dr. Marcel L{\"u}thi}
+
+\authors{Giorgi Grigalashvili}
+\email{g.grigalashvili@unibas.ch}
+\immatriculnr		{12-059-754}
+
+\date				{13.11.2019}
+
+% switch here for the german logo to logo-de
+\ulogo				{Template/logo-en} 
+
+\makeatletter
+	\def\blank{\clearpage%
+                \vspace*{\fill}
+                \hfill
+                \begin{center}
+                This page intentionally left blank.
+                \end{center}
+				\vspace{\fill}
+				\thispagestyle{empty}
+    }
+\makeatother
+
+\begin{document}
+\selectlanguage{english}
+\thesisfront
+\maketitle
+
+\pagestyle{thesis}
+\blank
+\input{./Front/Acknowledgment}
+\blank
+\input{./Front/Abstract}
+\blank
+\thesistoc
+
+\thesismain
+\input{./Chapters/Chapter1}
+\input{./Chapters/Chapter2}
+\input{./Chapters/Chapter3}
+\input{./Chapters/Chapter4}
+\input{./Chapters/Chapter5}
+\input{./Chapters/Chapter6}
+
+\thesisappendix 
+\thesisbib
+\begin{appendices}
+	\input{./Back/AppendixA} 
+\end{appendices}
+\thesisback
+% \input{./Back/Acronyms}
+\input{./Back/DeclarationOfAuthorship}
+
+\end{document}
